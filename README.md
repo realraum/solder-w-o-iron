@@ -1,17 +1,20 @@
-Python-Projekt für einen 100-MHz-Spektrumanalyzer, aufgebaut aus 10-MHz-Schritten mit 20-MHz-Kacheln (also sauberer Überlappung).
+Demo for how to make a spectrum analyzer w/o knowledge of python, but only fiddling arount with AI.
 
 
-🎛️ Projekt: Wideband-Spektrumanalyzer (100 MHz)
-Eckdaten
-Parameter	Wert
-Gesamtbandbreite	100 MHz
-Kachelbandbreite	20 MHz
-Schrittweite	10 MHz
-Überlappung	50 %
-FFT-Größe	8192
-Auflösung	≈ 2.4 kHz/bin
-Hardware	ADALM-Pluto
-Sprache	Python (pyadi-iio)
+Python project for a 100 MHz spectrum analyzer, built from 10 MHz steps with 20 MHz tiles (i.e.overlap).
+
+🎛️ Project: Wideband Spectrum Analyzer (100 MHz) 
+Key Data Parameter Value 
+Total Bandwidth 100 MHz Tile 
+Bandwidth 20 MHz 
+Step Size 10 MHz 
+Overlap 50% FFT 
+Size 8192 
+Resolution ≈ 2.4 kHz/bin 
+Hardware ADALM-Pluto 
+Language Python (pyadi-iio)
+
+HowTo
 
 git clone https://github.com/realraum/solder-w-o-iron.git
 
