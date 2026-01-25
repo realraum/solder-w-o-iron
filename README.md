@@ -13,3 +13,14 @@ Auflösung	≈ 2.4 kHz/bin
 Hardware	ADALM-Pluto
 Sprache	Python (pyadi-iio)
 
+git clone https://github.com/realraum/solder-w-o-iron.git
+
+python -m venv solder-w-o-iron
+
+source solder-w-o-iron/bin/activate
+cd solder-w-o-iron
+
+pip install  pyadi-iio
+pip install matplotlib
+
+python runcfix.py
