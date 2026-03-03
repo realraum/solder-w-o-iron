@@ -1,4 +1,4 @@
-Demo for how to make a spectrum analyzer w/o knowledge of python, but only fiddling arount with AI.
+Demo for how to make a spectrum analyzer for the ADALM Pluto w/o knowledge of python, but only fiddling arount with AI.
 
 
 Python project for a 100 MHz spectrum analyzer, built from 10 MHz steps with 20 MHz tiles (i.e.overlap).
