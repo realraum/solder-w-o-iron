@@ -25,6 +25,7 @@ source solder-w-o-iron/bin/activate
 cd solder-w-o-iron
 
 pip install  pyadi-iio
+
 pip install matplotlib
 
 python runcfix.py
